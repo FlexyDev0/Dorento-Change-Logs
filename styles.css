@@ -19,12 +19,12 @@ b {font-weight: bold;}
 
 header {
   margin: 0 auto;
-  width: 700px;
+  width: 500px;
 }
 
 .wrapper {
   margin: 0 auto 30px;
-  width: 700px;
+  width: 500px;
   box-shadow: 0 0 5px #ddd;
 }
 
