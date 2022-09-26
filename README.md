@@ -1,1 +1,1 @@
-![Discord Banner 2](https://discordapp.com/api/guilds/988978749007618058/widget.png?style=banner2)
+![Dorento](https://img.shields.io/badge/Dorento-Working-blue?style=for-the-badge&logo=appveyor)
