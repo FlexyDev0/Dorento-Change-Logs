@@ -11,7 +11,7 @@ var url = 'https://sheet2api.com/v1/CrZZTKcGT42R/untitled-spreadsheet/Sheet1?';
 fetch(url)
   .then(response => response.json())
   .then(data => {
-    document.getElementById("demo").innerHTML = data;
+    document.getElementById("demo").innerHTML = response;
   })
   .catch((error) => {
     console.error('Error:', error);
