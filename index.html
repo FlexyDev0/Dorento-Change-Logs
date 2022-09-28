@@ -5,20 +5,14 @@
 
 <center><p id="demo"></p></center>
 
+<script src="//sheet2api.com/v1/api.js"></script>
 <script>
-var query_params = new URLSearchParams({
-  'limit': 10,
-  'query_type': 'and',
-  'Chats': 'دردشة عامة'
+const url = 'https://sheet2api.com/v1/CrZZTKcGT42R/untitled-spreadsheet/Sheet1';
+const options = {};
+Sheet2API.read(url, options).then(function(result){
+  document.getElementById("demo").innerHTML = result;
+}, function(error){
+  console.log(error);
 });
-var url = 'https://sheet2api.com/v1/CrZZTKcGT42R/untitled-spreadsheet/Sheet1?';
 
-fetch(url)
-  .then(response => response.json())
-  .then(data => {
-    document.getElementById("demo").innerHTML = data;
-  })
-  .catch((error) => {
-    console.error('Error:', error);
-  });
 </script>
